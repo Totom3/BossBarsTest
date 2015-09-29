@@ -1,0 +1,12 @@
+name: BossBarsTest
+main: io.github.totom3.bossbarstest.Main
+version: 1.0
+description: Plugin application of BossBars API
+author: Totom3
+
+depend: [BossBars]
+
+commands:
+    bossbar:
+      description: Updates or removes your boss bar.
+      usage: "\"/bossbar <message> [percent]\" OR \"/bossbar\" (to remove)"
